@@ -104,7 +104,7 @@ class _BetterPlayerSubtitlesDrawerState
       child: Padding(
         padding: EdgeInsets.only(
             bottom: _playerVisible
-                ? _configuration!.bottomPadding + 30
+                ? _configuration!.bottomPadding + 15 // 자막 최소 bottom margin 변경, 기본 30
                 : _configuration!.bottomPadding,
             left: _configuration!.leftPadding,
             right: _configuration!.rightPadding),
